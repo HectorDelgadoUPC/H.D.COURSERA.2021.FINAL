@@ -152,11 +152,6 @@ GROUP BY item_test_2.item_id,
          item_test_2.test_number
 LIMIT 100;
 
--- Use the https://thumbtack.github.io/abba/demo/abba.html
--- to compute the lifts in metrics and the p-values for the binary
--- metrics (30 day order binary and 30 day view binary) using a
--- interval 95% confidence.
-
 SELECT test_assignment,
        test_number,
        COUNT(DISTINCT item) AS number_of_items,
